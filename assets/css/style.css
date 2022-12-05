@@ -1,0 +1,89 @@
+* {
+    font-family: 'Courier New', Courier, monospace
+}
+
+:root {
+    --borders: 10px;
+    --mainColor: #5c5e60;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+header {
+    background-color: var(--mainColor);
+    width: 100%;
+    display: inline-flex;
+    max-height: 150px;
+    margin-bottom: 10px;
+    border-radius: var(--borders);
+}
+
+#avatar {
+    max-height: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 70px;
+    border-radius: var(--borders);
+}
+
+header h1{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+header ul, li {
+    font-size: 25px;
+    float: left;
+    text-decoration: underline;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.banner {
+    max-height: 200px;
+    background-color: antiquewhite;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: var(--borders);
+}
+
+.banner img{
+    width: inherit;
+    height: 200px;
+    border-radius: var(--borders);
+}
+
+aside {
+    width: 100%;
+    background-color: var(--mainColor);
+    border-radius: var(--borders);
+    border-right-style: solid;
+    border-color: aqua;
+    border-width: 15px;
+    margin-right: 20px;
+}
+
+aside h2 {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+section {
+    display: inline-flex;
+    margin-bottom: 20px;
+    height: 300px;
+    border-radius: var(--borders);
+    width: 100%;
+}
+
+article {
+    background-color: bisque;
+    padding: 5px;
+    border-radius: var(--borders);
+}
