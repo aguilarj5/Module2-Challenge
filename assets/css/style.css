@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #212016;
     color: aliceblue;
 }
 
@@ -35,19 +35,22 @@ header h1{
     margin-right: 50px;
 }
 
-header ul, li {
+#header-ul {
     font-size: 25px;
     float: left;
     text-decoration: underline;
-    margin-left: 100px;
-    margin-top: 25px;
-    margin-bottom: 20px;
     list-style: none;
+    display: inline-flex;
+}
+
+.nav {
+    margin-left: 150px;
+    margin-top: 25px;
 }
 
 .banner {
     max-height: 200px;
-    background-color: antiquewhite;
+    background-color: var(--mainColor);
     width: 100%;
     margin-bottom: 15px;
     border-radius: var(--borders);
@@ -60,11 +63,11 @@ header ul, li {
 }
 
 aside {
-    width: 100%;
+    width: 25%;
     background-color: var(--mainColor);
     border-radius: var(--borders);
     border-right-style: solid;
-    border-color: aqua;
+    border-color: #b1f2ff;
     border-width: 15px;
     margin-right: 20px;
 }
@@ -83,7 +86,52 @@ section {
 }
 
 article {
-    background-color: bisque;
+    background-color: var(--mainColor);
     padding: 5px;
     border-radius: var(--borders);
+    width: 75%;
+}
+
+.work {
+    width: 36%;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#contact-me {
+    display: inline-flex;
+    list-style: none;
+}
+
+#contact-me li {
+    margin-right: 200px;
+    margin-top: 100px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+#module1-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: var(--borders);
+}
+
+#prework-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: var(--borders);
+}
+
+/*styling for about me text (p)*/
+#about-me {
+    font-size: 25px;
+    margin: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+/*styling for links*/
+a {
+    list-style: none;
+    color: aliceblue;
 }
